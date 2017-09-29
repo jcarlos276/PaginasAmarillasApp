@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgLLogo"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_margin="10dp"
+        android:src="@drawable/img_restaurante"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#000000"
+        />
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/etLNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/etLRubro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rubro"
+            android:textSize="15dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
